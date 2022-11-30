@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var clickButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        counterLabel.backgroundColor = .blue
+        counterLabel.backgroundColor = .systemBlue
         counterLabel.textColor = .systemYellow
         clickButton.backgroundColor = .red
         clickButton.tintColor = .green
